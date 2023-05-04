@@ -53,7 +53,7 @@ class JobItems extends StatelessWidget {
               )
             ],
           ),
-          SizedBox(height: 15,),
+          SizedBox(height: 10,),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -63,10 +63,11 @@ class JobItems extends StatelessWidget {
                   fontSize: 16
                 ) ,
               ),
-              IconText(Icons.monetization_on, job.CTC)
+              IconText(Icons.monetization_on, job.CTC),
+
             ],
           ),
-          SizedBox(height: 15,),
+          SizedBox(height: 10,),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [

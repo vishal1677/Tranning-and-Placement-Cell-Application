@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:tnp_cell_pict/screens/Quicksearch.dart';
+import 'package:tnp_cell_pict/screens/home/Job_feed/widgets/jobfeed.dart';
 
 class SearchCard extends StatelessWidget {
   const SearchCard({Key? key}) : super(key: key);
@@ -49,10 +51,16 @@ class SearchCard extends StatelessWidget {
               children: [
                 Image.asset('assets/icons/search.png',width: 20,),
                 SizedBox(width: 10,),
-                Text('Search', style: TextStyle(
-                  fontSize: 18,
-                  color: Colors.grey
-                ),
+                GestureDetector(
+                  onTap: (){
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>QuickSearch()));
+
+                  },
+                  child: Text('Search', style: TextStyle(
+                    fontSize: 18,
+                    color: Colors.grey
+                  ),
+                  ),
                 )
               ],
             ),

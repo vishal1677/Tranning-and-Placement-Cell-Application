@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:tnp_cell_pict/models/job.dart';
+import 'package:tnp_cell_pict/screens/home/widgets/job_details.dart';
 import 'package:tnp_cell_pict/screens/home/widgets/job_items.dart';
 
 class JobList extends StatelessWidget {
@@ -15,7 +17,17 @@ class JobList extends StatelessWidget {
       height: 160,
       child: ListView.separated(
           scrollDirection: Axis.horizontal,
-          itemBuilder: (context,index)=> JobItems(jobList[index]),
+          itemBuilder: (context,index)=> GestureDetector(
+              child: JobItems(jobList[index]),
+              onTap: (){
+                showModalBottomSheet(
+                    backgroundColor: Colors.transparent,
+                    isScrollControlled: true,
+                    context: context,
+                    builder: (context)=> JobDetail(jobList[index]));
+
+               },
+          ),
           separatorBuilder: (_,index)=> SizedBox(
             width: 15,
 

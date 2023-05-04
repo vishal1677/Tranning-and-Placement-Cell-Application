@@ -1,5 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:tnp_cell_pict/Profile/profilescreen.dart';
+import 'package:tnp_cell_pict/screens/Notification/notification.dart';
+import 'package:tnp_cell_pict/screens/welcome_screen/screen1.dart';
 
 class HomeAppBar extends StatelessWidget {
   const HomeAppBar({Key? key}) : super(key: key);
@@ -40,10 +43,17 @@ class HomeAppBar extends StatelessWidget {
                 transform: Matrix4.rotationZ(100),
                 child: Stack(
                   children: [
-                    Icon(
-                      Icons.notifications_none_outlined,
-                      size: 30,
-                      color: Colors.grey,
+                    GestureDetector(
+                      child: Icon(
+                        Icons.notifications_none_outlined,
+                        size: 30,
+                        color: Colors.grey,
+                      ),
+                      onTap: (){
+                        Navigator.push(context,
+                          MaterialPageRoute(builder: (context)=>NotificationScreen())
+                         );
+                      },
                     ),
                     Positioned(
                       child: Container(
@@ -60,9 +70,14 @@ class HomeAppBar extends StatelessWidget {
                 ),
               ),
               SizedBox(width: 20,),
-              ClipOval(
-                child: Image.asset('assets/images/avatar.png',width: 40,),
+              GestureDetector(
+                child: ClipOval(
+                  child: Image.asset('assets/images/avatar.png',width: 40,),
 
+                ),
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>ProfileScreen()));
+                },
               )
             ],
           )

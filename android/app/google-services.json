@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "348895914393",
+    "project_id": "tnp-cell-pict-4b87e",
+    "storage_bucket": "tnp-cell-pict-4b87e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348895914393:android:5ef63ebcd987f4b3518b08",
+        "android_client_info": {
+          "package_name": "com.example.tnp_cell_pict"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348895914393-jk3um1niet2eeve4klg7935u2rjvo0at.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAnGO07-3oOCeFA9_l0GsubQ3m5Jbl8k8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348895914393-jk3um1niet2eeve4klg7935u2rjvo0at.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
