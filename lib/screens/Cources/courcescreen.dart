@@ -14,7 +14,7 @@ class _CourceScreenState extends State<CourceScreen> {
     return Scaffold(
       body: Container(
         child: Center(
-          child: Text("Cource"),
+          child: Text("Courses"),
         ),
       ),
     );
