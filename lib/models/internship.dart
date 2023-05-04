@@ -24,7 +24,7 @@ class Internship
           'Poland Warshaw',
           '80K Per Month',
           'assets/images/google_logo.png',
-          '1/1/2025',
+          '1/1/2023',
           true,
           [
             'Problem Solving & DSA',
