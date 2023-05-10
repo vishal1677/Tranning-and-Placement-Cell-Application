@@ -33,7 +33,6 @@ class SearchList extends StatelessWidget {
                     isScrollControlled: true,
                     context: context,
                     builder: (context)=> JobDetail(jobList[index]));
-
               },
           ),
 

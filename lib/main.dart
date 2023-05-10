@@ -7,8 +7,8 @@ import 'package:tnp_cell_pict/Splashscreen.dart';
 import 'package:tnp_cell_pict/screens/home/home.dart';
 
 Future main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  WidgetsFlutterBinding.ensureInitialized(); // Invoke firebase
+  await Firebase.initializeApp(); // Invoke firebase
 
   runApp( MyApp());
 }
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
     SystemChrome.setSystemUIOverlayStyle(
       SystemUiOverlayStyle(statusBarColor: Colors.transparent)
     );
-    return FutureBuilder(
+    return FutureBuilder(  // Firebase error handling code
       future: _initialization,
         builder: (context,snapshot)
         {
