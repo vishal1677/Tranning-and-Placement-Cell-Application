@@ -1,16 +1,34 @@
-# tnp_cell_pict
 
-A new Flutter project.
+# Trainning And Placement Cell Android Application
 
-## Getting Started
+2nd Year PBL Project
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+This project has following functionality:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Gives real-time update and notifications of incoming on-campus placement and internship drives
+- Admin can view various statistics related to placement and internship
+- Good looking UI
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Tech Stack
+
+**App:** Flutter
+
+**Backend:** Firebase
+
+## Screenshots
+
+![app1](https://github.com/vishal1677/Tranning-and-Placement-Cell-Application/assets/97781791/d56eec52-727f-4077-acf9-8ed2a646b907)
+
+![app2](https://github.com/vishal1677/Tranning-and-Placement-Cell-Application/assets/97781791/693c57c1-07b4-484a-8963-08aac6b04f2c)
+
+![app3](https://github.com/vishal1677/Tranning-and-Placement-Cell-Application/assets/97781791/58a902bb-45af-439c-885f-b7610f5b0868)
+
+![app4](https://github.com/vishal1677/Tranning-and-Placement-Cell-Application/assets/97781791/dc3115bc-3c69-45e7-a854-39c0cb82916e)
+
+![app5](https://github.com/vishal1677/Tranning-and-Placement-Cell-Application/assets/97781791/e23fc4cf-c6eb-428c-9516-ad0071eebfde)
+
+
+
