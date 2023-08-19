@@ -11,7 +11,11 @@ This project has following functionality:
 - Admin can view various statistics related to placement and internship
 - Good looking UI
 
+## Demo Video
 
+
+
+  - [Click here](https://drive.google.com/file/d/1kRfcNWrfuFT83z5p7hsWu8q4vdAWjevy/view?usp=sharing)
 ## Tech Stack
 
 **App:** Flutter
